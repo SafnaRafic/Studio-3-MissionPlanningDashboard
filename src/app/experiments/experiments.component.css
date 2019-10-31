@@ -5,4 +5,11 @@
 
 h3 {
     text-align: center;
+    color: yellow;
+}
+
+li:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    background-color: violet;
 }

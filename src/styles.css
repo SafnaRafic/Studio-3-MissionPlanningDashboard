@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("https://www.mwrf.com/sites/mwrf.com/files/styles/article_featured_retina/public/3-25_MilitaryRadar.jpg?itok=FMAf2ur2https://i.gadgets360cdn.com/large/chandrayaan_2_fifth_orbit_twitter_isro_1565095957551.jpg");
+    background-size: cover;
+    color: white;
+    
+    }

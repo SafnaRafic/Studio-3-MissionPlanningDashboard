@@ -1,7 +1,22 @@
 <div class="displayBox">
-    <h3>Possible Experiments</h3>
-    <ul>
-      <li *ngFor="let experiment of experiments">{{experiment}}</li>
-    </ul>
+  <h3>Possible Experiments</h3>
+  <!-- <ul>
+    <li *ngFor="let experiment of experiments">
+        <button (click)="addEquipment(item)">Add </button>  {{experiment}}</li>
+  </ul> -->
+  <ul>
+      <li  (mouseover)="selected=experiment" (mouseout)="selected=experiment" *ngFor="let experiment of experiments" (click)="addExperiment(experiment)">
+          {{experiment}}</li>
+  </ul>
 </div>
 <hr>
+<div class="displaybox">
+<h3> Chosen Experiments </h3>
+<ul>
+    <li  *ngFor="let item of experimentItem">
+      <button (click)="remove(item)">Remove</button>{{item}}
+     
+      
+    </li>
+</ul>
+</div>

@@ -10,9 +10,23 @@ button {
 
 h3 {
     text-align: center;
+    color: Yellow;
 }
 
 /* Add an 'active' class to style the background of the 'Add to Cargo Hold' buttons. */
-
+.active{
+    background-color: orange;
+}
 
 /* Add the 'nearMaxMass' class style here: */
+.nearMaxMass{
+    color: red;
+    font-weight: bold;
+}
+.selected{
+   background-color: yellowgreen;
+}
+li:hover{
+    background-color: violet;
+    text-decoration: underline;
+}
